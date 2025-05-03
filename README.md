@@ -78,4 +78,4 @@ The PSM dataset was publicly released by eBay Inc. as part of the RANSynCoders p
 
 ---
 
-**Usage Note:** All datasets are used strictly for academic and research purposes. Always cite the original authors and comply with license terms where applicable.
+**Usage Note:** All datasets are used strictly for academic and research purposes. 
