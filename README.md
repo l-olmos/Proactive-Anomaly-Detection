@@ -10,8 +10,8 @@ The SMAP dataset consists of telemetry data from NASA’s SMAP satellite. It inc
 
 #### Key Stats
 - **55** telemetry channels
-- **429,735** total values
-- **69** anomalies
+- Train: **138004** normal
+- Test: **435826** normal, **68** anomaly sequences
 
 #### Format
 - `.csv` and `.npy` files: `train`, `test`, `labeled_anomalies.csv`
@@ -29,8 +29,8 @@ The MSL dataset includes telemetry from NASA’s Mars rover. Anomalies are hand-
 
 #### Key Stats
 - **27** telemetry channels
-- **66,709** total values
-- **36** anomalies
+- Train: **58317** normal
+- Test: **73729** normal, **36** anomaly sequences
 
 #### Format
 - `.csv` and `.npy` files: `train`, `test`, `labeled_anomalies.csv`
@@ -49,7 +49,8 @@ The SMD dataset consists of server infrastructure metrics collected from 28 mach
 #### Key Stats
 - **28** different machines/entities
 - **38** features per machine
-- Balanced train/test splits
+- Train: **708405** normal
+- Test: **678976** normal, **29444** anomalies
 
 #### Format
 - `.txt` files: `train`, `test`, `test_label`, `interpretation_label`
@@ -66,7 +67,8 @@ The SMD dataset consists of server infrastructure metrics collected from 28 mach
 The PSM dataset was publicly released by eBay Inc. as part of the RANSynCoders project. It contains real server telemetry data for asynchronous anomaly detection.
 
 #### Key Stats
-- Contains labeled normal/anomalous server data
+- Train: **132481** normal
+- Test: **63460** normal, **24381** anomalies
 
 #### Format
 - `.csv` files: `train`, `test`, `test_label`
